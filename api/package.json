@@ -1,0 +1,31 @@
+{
+  "name": "files-formatter",
+  "version": "0.0.1",
+  "author": "Elijoao Garcia",
+  "description": "Toolbox Api code challenge",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.1.2",
+    "cors": "2.8.5",
+    "express": "4.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "2.0.20",
+    "standard": "17.0.0"
+  }
+}
